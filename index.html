@@ -86,57 +86,67 @@
               <p>
                 The UK Government's Department of Transport publishes reports on Road Safety on an annual basis. These reports are
                 supported by the release of datasets containing the information related to:
+            
+                <ol class="work_list">
+                  <li>Road accident details in the calendar year</li>
+                  <li>Vehicles (involved in road accidents)</li>
+                  <li>Casualties (related to road accidents)</li>
+                </ol>
               </p>
-              <ol class="work_list">
-                <li>Road accident details in the calendar year</li>
-                <li>Vehicles (involved in road accidents)</li>
-                <li>Casualties (related to road accidents)</li>
-              </ol>
 
               <h4>Task</h4>
               <p>
-              Supplied with the 2021 data files, the task was to conduct exploratory data analysis on 
-              the information contained in these files and to compare the data analysed to the official
-              2021 annual report.<br>
-              Important headline metrics to be reviewed were:
+                Supplied with the 2021 data files, the task was to conduct exploratory data analysis on 
+                the information contained in these files and to compare the data analysed to the official
+                2021 annual report.
               </p>
-              <ol class="work_list">
-                <li>Road fatalities and KSI</li>
-                <li>Casualties by severity and month</li>
-                <li>Vulnerable road users</li>
-                <li>Fatalities by type of vehicle</li>
-                <li>Casualties by age and sex</li>
-              </ol>
+
+              <p>
+                Important headline metrics to be reviewed were:
+                <ol class="work_list">
+                  <li>Road fatalities and KSI</li>
+                  <li>Casualties by severity and month</li>
+                  <li>Vulnerable road users</li>
+                  <li>Fatalities by type of vehicle</li>
+                  <li>Casualties by age and sex</li>
+                </ol>
+              </p>
 
               <h4>Actions</h4>
               <p>
-              The data files were processed in Kaggle to:
+                The data files were processed in Kaggle to:
+                <ol class="work_list">
+                  <li>load the accident, vehicle and casualty files;</li>
+                  <li>read the Road Safety Open Dataset Data Guide to obtain the descriptions for 
+                    codes in the data files;</li>
+                  <li>replace the codes in the data files with the descriptions contained in the Data Guide;</li>
+                  <li>review any missing (null) data in the data files;</li>
+                  <li>calculate the KSI (Killed and Severity) measures using the available adjustment 
+                    probabilities (published in separate data files for accidents and casualties since 
+                    2004);</li>
+                  <li>extract the headline statistics in tabular and graphical format and compare to the annual report.</li>
+                  </ol>
               </p>
-              <ol class="work_list">
-                <li>load the accident, vehicle and casualty files;</li>
-                <li>read the Road Safety Open Dataset Data Guide to obtain the descriptions for 
-                  codes in the data files;</li>
-                <li>replace the codes in the data files with the descriptions contained in the Data Guide;</li>
-                <li>review any missing (null) data in the data files;</li>
-                <li>calculate the KSI (Killed and Severity) measures using the available adjustment 
-                  probabilities (published in separate data files for accidents and casualties since 
-                  2004);</li>
-                <li>extract the headline statistics in tabular and graphical format and compare to the annual report.</li>
-                </ol>
-                <p>
-                  Feel free to view my work in my Kaggle notebook - 2021 Great Britain Road Safety Exploratory Data Analysis
-                </p>
+              <p>
+                Feel free to view my work in my Kaggle notebook - 2021 Great Britain Road Safety Exploratory Data Analysis
+              </p>
 
               <h4>Results and Findings</h4>
               <p>
                 The datafiles had very little missing data - with the all missing data being in the 
-                accident location co-ordinate fields.<br>
+                accident location co-ordinate fields.
+              </p>
+              <p>
                 The accident and casualty severity data was supplied unadjusted. To support comparison 
                 to the annual report's headline KSI metrics (which use adjusted Severity measures) 
-                adjustments were made using the methodology advocated by the Department of Transport.<br>
+                adjustments were made using the methodology advocated by the Department of Transport.
+              </p>
+              <p>
                 The analysis uncovered that whilst the data files contains a number of categorised/grouped
                 data fields, that data features had to be re-categorised to support direct comparison with 
-                the UK Govt reporting (for example: casualty age bands).<br>
+                the UK Govt reporting (for example: casualty age bands).
+              </p>
+              <p>
                 A summary of the comparison of this analysis and the UK Govt headlines follows:                
               </p>
 
