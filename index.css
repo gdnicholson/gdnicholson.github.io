@@ -489,6 +489,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__list {
     /* list-style-type: square; */
+    margin: var(--gutter-small-1) 0;
     list-style-position: outside;  /* was inside */
     margin-bottom: var(--gutter-normal);
 }
