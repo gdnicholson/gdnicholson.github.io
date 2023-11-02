@@ -116,6 +116,11 @@ img {
     max-width: 100%;
 }
 
+ul,
+ol {
+    list-style-position: outside;
+  }
+
 /* --------------------------------------- */
 /* ----- Headlines and Paragraphs ----- */
 /* --------------------------------------- */
@@ -484,7 +489,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__list {
     /* list-style-type: square; */
-    list-style-position: inside;
+    list-style-position: outside;  /* was inside */
     margin-bottom: var(--gutter-normal);
 }
 
