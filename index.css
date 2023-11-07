@@ -636,16 +636,19 @@ body:not(.user-is-tabbing) a:focus {
 
 
 .four_column {
-    flex: 25%;
+    float: left;
+    width: 25%;
     padding: 5px;
   }
 
 .three_column {
-    flex: 33.33%;
+    float: left;
+    width: 33.33%;
     padding: 5px;
   }
 
 .two_column {
-    flex: 50%;
+    float: left;
+    width: 50%;
     padding: 5px;
   }
